@@ -117,10 +117,6 @@ spec:
           securityContext:
             {{- toYaml . | nindent 12 }}
           {{- end }}
-          volumeMounts:
-            - name: queries
-              mountPath: /etc/config.yaml
-              subPath: config.yaml
 {{- with .Values.extraVolumeMounts }}
 {{ toYaml . | indent 12 }}
 {{- end }}
