@@ -46,6 +46,7 @@ spec:
       {{- end }}
       containers:
         - name: {{ .Chart.Name }}
+          command: 
           args:
           - "--web.listen-address=:{{ .Values.service.targetPort }}"
           {{- if .Values.config.logLevel }}

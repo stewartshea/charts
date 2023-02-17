@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: bitnami/pgbouncer
-  tag: 1.18.0
+  repository: quay.io/prometheuscommunity/pgbouncer-exporter
+  tag: latest
   pullPolicy: IfNotPresent
 
   ## Optionally specify an array of imagePullSecrets.
