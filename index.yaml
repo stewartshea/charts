@@ -3,9 +3,9 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2023-02-17T13:23:42.506242276-05:00"
+    created: "2023-02-17T13:31:33.460627832-05:00"
     description: A Helm chart for prometheus postgres-exporter
-    digest: 7a323e97333fc1c9e0b2ba7180c3e8f00ecf96d9a0505895ece5ee502b4e8a4e
+    digest: 0f83939b4619efda00a99cf6bd3bf81aa821faa6ab48dbbe306759484a175898
     home: https://github.com/prometheus-community/pgbouncer_exporter
     keywords:
     - pgbouncer
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://stewartshea.github.io/charts/prometheus-pgbouncer-exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-17T13:23:42.505521014-05:00"
+generated: "2023-02-17T13:31:33.459835066-05:00"
