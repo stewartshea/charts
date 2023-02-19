@@ -25,6 +25,7 @@ spec:
 {{ toYaml .Values.podLabels | trim | indent 8 }}
 {{- end }}
       annotations:
+        kubectl.kubernetes.io/default-logs-container: {{ .Chart.Name }}
 {{- if .Values.annotations }}
 {{ toYaml .Values.annotations | indent 8 }}
 {{- end }}
