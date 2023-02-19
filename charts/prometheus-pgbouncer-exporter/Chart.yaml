@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: "1.18.0"
 description: A Helm chart for prometheus postgres-exporter
 name: prometheus-pgbouncer-exporter
-version: 0.0.1
+version: 0.0.2
 home: https://github.com/prometheus-community/pgbouncer_exporter
 sources:
 - https://github.com/prometheus-community/pgbouncer_exporter
