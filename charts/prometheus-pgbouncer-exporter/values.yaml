@@ -97,25 +97,25 @@ networkPolicy:
 
 # The securityContext of the pod.
 # See https://kubernetes.io/docs/concepts/policy/security-context/ for more.
-podSecurityContext: {}
-  # runAsUser: 1001
-  # runAsGroup: 1001
-  # runAsNonRoot: true
-  # seccompProfile:
-  #   type: RuntimeDefault
+podSecurityContext:
+  runAsUser: 1001
+  runAsGroup: 1001
+  runAsNonRoot: true
+  seccompProfile:
+    type: RuntimeDefault
 
 # The securityContext of the container.
 # See https://kubernetes.io/docs/concepts/policy/security-context/ for more.
-securityContext: {}
-  # runAsUser: 1001
-  # runAsGroup: 1001
-  # readOnlyRootFilesystem: true
-  # runAsNonRoot: true
-  # allowPrivilegeEscalation: false
-  # capabilities:
-  #   drop: ["ALL"]
-  # seccompProfile:
-  #   type: RuntimeDefault
+securityContext:
+  runAsUser: 1001
+  runAsGroup: 1001
+  readOnlyRootFilesystem: true
+  runAsNonRoot: true
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop: ["ALL"]
+  seccompProfile:
+    type: RuntimeDefault
 
 hostAliases: []
   # Set Host Aliases as per https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/
@@ -171,12 +171,12 @@ podLabels: {}
 
 # Configurable health checks
 livenessProbe:
-  initialDelaySeconds: 0
-  timeoutSeconds: 1
+  initialDelaySeconds: 3
+  timeoutSeconds: 3
 
 readinessProbe:
-  initialDelaySeconds: 0
-  timeoutSeconds: 1
+  initialDelaySeconds: 5
+  timeoutSeconds: 10
 
 # ExtraEnvs
 extraEnvs: []
