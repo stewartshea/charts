@@ -3,9 +3,9 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2023-02-20T08:35:35.540181939-05:00"
-    description: A Helm chart for prometheus postgres-exporter
-    digest: e930a2df78fb3ff60ffe395b8c1616db0b70481597b13a640eb2a19c0f79821a
+    created: "2023-02-20T11:44:51.716332108-05:00"
+    description: A Helm chart for prometheus pgbouncer-exporter
+    digest: 8ff214c6255de13a9b00ee83cc85298895ea06f1f357ec284fc6304f457cb8f9
     home: https://github.com/prometheus-community/pgbouncer_exporter
     keywords:
     - pgbouncer
@@ -19,11 +19,31 @@ entries:
     - https://github.com/prometheus-community/pgbouncer_exporter
     type: application
     urls:
-    - https://stewartshea.github.io/charts/prometheus-pgbouncer-exporter-0.0.2.tgz
+    - prometheus-pgbouncer-exporter-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.18.0
+    created: "2023-02-20T11:44:51.715758079-05:00"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: c295c71e9be2ff6d355204412d3e08f5c262115a9b0211ac1335655ddbc60ee1
+    home: https://github.com/prometheus-community/pgbouncer_exporter
+    keywords:
+    - pgbouncer
+    - prometheus
+    - exporter
+    maintainers:
+    - email: stewart.shea@gmail.com
+      name: stewartshea
+    name: prometheus-pgbouncer-exporter
+    sources:
+    - https://github.com/prometheus-community/pgbouncer_exporter
+    type: application
+    urls:
+    - prometheus-pgbouncer-exporter-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2023-02-20T08:35:35.539609207-05:00"
+    created: "2023-02-20T11:44:51.71514972-05:00"
     description: A Helm chart for prometheus postgres-exporter
     digest: cdc2ad134a72e1df946e27186934696f9d294139c3734de2c2aacfb949ecf10d
     home: https://github.com/prometheus-community/pgbouncer_exporter
@@ -39,6 +59,6 @@ entries:
     - https://github.com/prometheus-community/pgbouncer_exporter
     type: application
     urls:
-    - https://stewartshea.github.io/charts/prometheus-pgbouncer-exporter-0.0.1.tgz
+    - prometheus-pgbouncer-exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-20T08:35:35.538924984-05:00"
+generated: "2023-02-20T11:44:51.714470381-05:00"
