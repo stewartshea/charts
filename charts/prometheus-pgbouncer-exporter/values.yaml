@@ -1,6 +1,5 @@
 # Default values for prometheus-pgbouncer-exporter.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
+
 
 replicaCount: 1
 
@@ -95,7 +94,7 @@ networkPolicy:
 
 # The securityContext of the pod.
 # See https://kubernetes.io/docs/concepts/policy/security-context/ for more.
-podSecurityContext: 
+podSecurityContext:
   runAsUser: 1001
   runAsGroup: 1001
   runAsNonRoot: true
@@ -104,7 +103,7 @@ podSecurityContext:
 
 # The securityContext of the container.
 # See https://kubernetes.io/docs/concepts/policy/security-context/ for more.
-securityContext: 
+securityContext:
   runAsUser: 1001
   runAsGroup: 1001
   readOnlyRootFilesystem: true

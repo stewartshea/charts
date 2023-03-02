@@ -1,0 +1,9 @@
+postgresql: 
+  enabled: true
+  fullnameOverride: ci-postgres
+  global: 
+    postgresql: 
+      auth: 
+        postgresPassword: "password"
+        username: "user"
+        password: "user_password"

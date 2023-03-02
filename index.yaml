@@ -3,9 +3,14 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2023-02-20T11:54:41.972469273-05:00"
+    created: "2023-03-02T09:35:24.290096645-05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~12.2.2
     description: A Helm chart for prometheus pgbouncer-exporter
-    digest: 8bdf0f08dfd97e110f31fb7f15f4f7f2891bdd0c4a3ba25bd7e372e619c11292
+    digest: 7dbc023055b2a6099473c9d8bdd07cc655f4349ef4a478d86eab31234659f21d
     home: https://github.com/prometheus-community/pgbouncer_exporter
     keywords:
     - pgbouncer
@@ -23,7 +28,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2023-02-20T11:54:41.971720825-05:00"
+    created: "2023-03-02T09:35:24.286178973-05:00"
     description: A Helm chart for prometheus postgres-exporter
     digest: c295c71e9be2ff6d355204412d3e08f5c262115a9b0211ac1335655ddbc60ee1
     home: https://github.com/prometheus-community/pgbouncer_exporter
@@ -43,7 +48,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2023-02-20T11:54:41.970951698-05:00"
+    created: "2023-03-02T09:35:24.28564147-05:00"
     description: A Helm chart for prometheus postgres-exporter
     digest: cdc2ad134a72e1df946e27186934696f9d294139c3734de2c2aacfb949ecf10d
     home: https://github.com/prometheus-community/pgbouncer_exporter
@@ -61,4 +66,4 @@ entries:
     urls:
     - prometheus-pgbouncer-exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-20T11:54:41.970041122-05:00"
+generated: "2023-03-02T09:35:24.285013717-05:00"
